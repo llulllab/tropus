@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Llull Lab</title>
+
+  <!-- Fontlar -->
+  <link href="https://fonts.googleapis.com/css2?family=Spectral&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      font-family: 'Spectral', serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    img {
+      max-width: 60vw;
+      max-height: 40vh;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .email {
+      margin-top: 30px;
+      font-size: 3.5vw;
+      font-family: 'Spectral', serif;
+    }
+
+    .language-links {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .language-links a {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .language-links a:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    @media (min-width: 768px) {
+      .email {
+        font-size: 16px;
+      }
+
+      img {
+        max-width: 300px;
+      }
+
+      .language-links {
+        width: 300px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="LULL Logo.png" alt="Llull Lab Logo">
+
+  <!-- Dil bağlantıları -->
+  <div class="language-links">
+    <a href="fr/index.html">Français</a>
+    <a href="en/index.html">English</a>
+  </div>
+
+  <div class="email">
+    contact@llulllab.com
+  </div>
+
+
+</body>
+</html>
